@@ -1,0 +1,258 @@
+/*
+	Theme Name: Theme Adobe Expertos
+	Theme URI: http://expertosadobe.com.mx/
+	Version: 0.2
+	Description: Theme basico bootstrap 5 no jQuery
+	Author: wordpress Developer
+	Author URI: http://expertosadobe.com.mx/
+*/
+@font-face {
+	font-family: 'RobotoB';
+	src: url("fonts/Roboto-Bold.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	speak: none;
+}
+@font-face {
+	font-family: 'RobotoBI';
+	src: url("fonts/Roboto-BoldItalic.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	speak: none;
+}
+/* Bootstrap y lightbox */
+html,
+body {
+	height: 100%;
+}
+body{
+/*	font-family: RobotoR;*/
+}
+#wrapper {
+/*		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		margin: 0 auto -30px;
+		background-image: url("imagenes/fondo.jpg");
+	background-repeat: repeat;
+	background-position: top;*/
+}
+.clear{clear:both;}
+.marg0{margin: 0 !important;}
+.mb10{margin-bottom: 10px;}
+.mb20{margin-bottom: 20px;}
+.mb25{margin-bottom: 25px;}
+.mb30{margin-bottom: 30px;}
+.mb40{margin-bottom: 40px;}
+.mb50{margin-bottom: 50px;}
+.mb60{margin-bottom: 60px;}
+.mb70{margin-bottom: 70px;}
+.mb80{margin-bottom: 80px;}
+.mb90{margin-bottom: 90px;}
+.mb100{margin-bottom: 100px;}
+.mb150{margin-bottom: 150px;}
+.mb200{margin-bottom: 200px;}
+.pt0{padding-top: 0 !important;}
+.pb0{padding-bottom: 0 !important;}
+.izq{float: left !important;}
+.der{float: right !important;}
+.noVer, .hidden{display:none !important;}
+
+h3{
+	color:white;
+	background-color: #850A14;
+	margin-bottom: 0;
+	padding: 7px 10px;
+	font-size: 1.4em;
+}
+h4{
+/*	font-family: RobotoR;*/
+}
+/* Header */
+header .container{
+/*	padding:0;*/
+}
+header h1{
+	text-align: center;
+}
+/*header */
+#milogo{
+	display: block;
+	width: 200px;
+	float: left;
+}
+/* Images */
+img{
+	display: block;
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+}
+img.imagen_completa{
+	width: 100%;
+}
+img.imagen_centrada{
+	width: auto;
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	min-height: 40px;
+}
+.imagen_full_seccion{
+		width: 100%;
+		display: block;
+		height: 600px;
+		padding: 0;
+		margin: 0;
+		position: relative;
+		background-repeat: no-repeat;
+		background-color: transparent;
+		background-size: cover;
+		background-position: center;
+}
+/* Main */
+.mainContainer{
+	min-height: 850px;
+	background-color: white;
+}
+.mainContainer h1{
+	color: #850A14;
+}
+.mainContainer h2{
+	color: #850A14;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 30px 0;
+}
+.segundaC{
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+.mi404 h2{
+	color: #850A14;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 30px 0;
+	font-size: 5em;
+}
+.mi404 h2 span{
+	font-size: 8em;
+}
+/* Footer */
+#footer{
+	background-color: #850A14;
+	display:block;
+	width: 100%;
+	height:140px;
+}
+#footer .container{
+	padding: 16px 0 0px 0;
+}
+
+/* extra */
+.div-section,
+.section-padded{
+	margin: 0;
+	display: block;
+}
+.section-padded .section-wrap{
+	padding: 80px 0;
+	display: block;
+	min-height: auto;
+}
+.section-bg .section-wrap{
+	background-position: center center;
+    background-size: cover;
+    background-image: url("http://pxe.wordpressdeveloper.com.mx/wp-content/uploads/2018/10/Dinamicas-de-Integracion-Servicios-Adicionales.jpg");
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 554px;
+}
+.section-bg-fixed .section-wrap{
+	background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("http://pxe.wordpressdeveloper.com.mx/wp-content/uploads/2018/10/Dinamicas-de-Integracion-Servicios-Adicionales.jpg");
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.rojo_blanco{
+	background-color: #CF003A;
+}
+.gris_blanco,
+.gris_rojo_gris,
+.gris_amarillo_gris,
+.gris_naranja_gris,
+.gris_verde_gris,
+.gris_azul_gris{
+	background-color: #f2f2f2;
+}
+.amarillo_blanco{
+	background-color: #F7B717;
+}
+.rojo_blanco .section-titulo,
+.rojo_blanco .section-descripcion,
+.gris_blanco .section-titulo,
+.gris_blanco .section-descripcion,
+.amarillo_blanco .section-titulo,
+.amarillo_blanco .section-descripcion{
+	color: white;
+}
+.blanco_rojo_gris,
+.blanco_amarillo_gris,
+.blanco_verde_gris,
+.blanco_naranja_gris,
+.blanco_azul_gris,
+.blanco_morado_gris{
+	background-color: white;
+}
+.blanco_rojo_gris .section-titulo,
+.gris_rojo_gris .section-titulo{
+	color: #CF003A;
+}
+.blanco_amarillo_gris .section-titulo,
+.gris_amarillo_gris .section-titulo{
+	color: #F7B717;
+}
+.blanco_verde_gris .section-titulo,
+.gris_verde_gris .section-titulo{
+	color: #009C5E;
+}
+.blanco_naranja_gris .section-titulo,
+.gris_naranja_gris .section-titulo{
+	color: #ED6227;
+}
+.blanco_azul_gris .section-titulo,
+.gris_azul_gris .section-titulo{
+	color: #005A7E;
+}
+.blanco_morado_gris .section-titulo{
+	color: #643180;
+}
+.blanco_rojo_gris .section-descripcion,
+.blanco_amarillo_gris .section-descripcion,
+.blanco_verde_gris .section-descripcion,
+.blanco_naranja_gris .section-descripcion,
+.gris_naranja_gris .section-descripcion,
+.blanco_azul_gris .section-descripcion,
+.gris_rojo_gris .section-descripcion,
+.gris_amarillo_gris .section-descripcion,
+.gris_verde_gris .section-descripcion,
+.gris_azul_gris .section-descripcion,
+.blanco_morado_gris .section-descripcion{
+	color: #333;
+}
+@media (min-width: 2000px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (max-width: 768px) {}
